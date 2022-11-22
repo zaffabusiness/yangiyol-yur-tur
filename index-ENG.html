@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YUR TUR</title>
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div>
+
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a href="#cont"><img src="./img/logo.png" class="travel__logo" alt=""></a>
+          <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
+            <a class="nav-link text-white" aria-current="page" href="./pages/about-us/aboutus-ENG.html">About Us</a>
+            <a class="nav-link text-white" aria-current="page" href="#cost">Prices</a>
+            <a class="nav-link text-white" aria-current="page" href="#world">Popular places</a>
+            <a class="nav-link text-white" aria-current="page" href="#connect">Social network</a>
+            <div class="d-flex justify-content-center">
+              <select class="til" onChange="top.location.href=this.options[this.selectedIndex].value;"
+                class="selectpicker" data-width="fit">
+
+                <a href="#eng">
+                  <option value="./index-ENG.html">ENG</option>
+                </a>
+
+
+                <a href="#ru">
+                  <option value="./index.html">RUS</option>
+                </a>
+
+                <a href="#uz">
+                  <option value="./index-UZ.html">UZB</option>
+                </a>
+              </select>
+
+
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center">
+              <a href="tel: +9989980930878"><img src="./img/tel__logo.png" class="tel__logo" alt=""></a>
+              <div class="d-flex flex-column flex-wrap justify-content-center align-items-center">
+                <a href="tel: +998996488999" class="text-decoration-none text-white fw-bold fs-5">+998(99)
+                  648-89-99</a>
+                <a href="tel: +998971060060" class="text-decoration-none text-white fw-bold fs-5">+998(97)
+                  106-00-60</a>
+              </div>
+            </div>
+          </div>
+      </nav>
+
+      <div class="cont" id="cont">
+        <div class="slider"></div>
+        <ul class="nav"></ul>
+        <div data-target='right' class="side-nav side-nav--right"></div>
+        <div data-target='left' class="side-nav side-nav--left"></div>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="main">
+
+    <section class="world p-5" id="world">
+      <div class="container">
+
+        <div class="text-center">
+
+          <h1>
+            Discover a new world!
+          </h1>
+
+          <h3 class="mt-lg-5 mt-0">
+            Popular places
+          </h3>
+
+        </div>
+        <section class="container">
+          <div class="tiler">
+            <img src="./img/tiler__dubai.jpg">
+          </div>
+
+          <div class="tiler">
+            <img src="./img/tiler__maldivia.jpg" />
+          </div>
+
+          <div class="tiler">
+            <img src="./img/tiler__dubai2.jpg" />
+          </div>
+
+
+          <div class="tiler">
+            <img src="./img/tiler__malezia.jpg" />
+          </div>
+
+
+          <div class="tiler">
+            <img src="./img/tiler__mekka.jpg" />
+          </div>
+
+
+          <div class="tiler">
+            <img src="./img/tiler__tailand.jpg" />
+          </div>
+
+
+          <div class="tiler">
+            <img src="./img/tiler__mekka2.jpg" />
+          </div>
+
+
+          <div class="tiler">
+            <img src="./img/tiler__turkey.png" />
+          </div>
+
+
+          <div class="tiler">
+            <img src="./img/tiler__turkey2.jpg" />
+          </div>
+        </section>
+        <div>
+          <p class="world__text text-center mt-lg-4 mb-lg-5 mb-0">
+            The world is a mysterious planet where the stories of cities were collected in
+            legends, where the sun shines all year round and reflects this unique nature and
+            beautiful hearted people.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="kaba d-flex flex-column justify-content-center align-items-center text-center">
+      <div class="container ">
+        <div class="text-white">
+          <h1 class="text-white">
+            Kaaba
+          </h1>
+          <p class="fs-5 mt-lg-5 mt-0">
+            Kaaba - Muslim shrine in the form of a cubic building
+            in the courtyard of the mosque al-Haram (Reserved Mosque) in Mecca. This is one of the main places
+            gathering, according to the Qur'anic injunctions, pilgrims during the Hajj
+            The Kaaba bears the symbolic name "Al-Baytu-l-Haram", which means in Arabic
+            "Reserved House".
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="dubai d-flex flex-column justify-content-center align-items-center text-center">
+      <div class="container ">
+        <div class="text-white">
+          <h1 class="text-white">
+            Dubai
+          </h1>
+          <p class="fs-5 mt-lg-5 mt-0">
+            Dubai is the largest city in the United Arab Emirates and a deep sea
+            port
+            the administrative center of the emirate Dubai, the most important commercial and financial center of the
+            UAE
+            and the entire Middle East. Located on the coast of the Persian Gulf.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="turkiya d-flex flex-column justify-content-center align-items-center text-center">
+      <div class="container ">
+        <div class="text-white">
+          <h1 class="text-white">
+            Turkey
+          </h1>
+          <p class="fs-5 mt-lg-5 mt-0">
+            urkey officially - the Republic of Turkey - is a state in Western Asia (97%) and in Southern Europe (3%).
+            Population - 83.3 million people. (2022), area - 783,562 km² (ranks 19th in the world in terms of
+            numbers
+            population and 36th in territory). unitary state. The official language is Turkish.
+            Turkey borders with 14 states.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cost p-lg-3 p-0" id="cost">
+      <div class="container">
+        <h1 class="text-center">PRICES</h1>
+        <div class="card-container d-flex flex-lg-nowrap flex-wrap justify-content-evenly">
+          <!-- 1 - card-wrapper -->
+          <div class="card-wrapper">
+            <div class="card bg-uz dark d-flex justify-content-center align-items-center">
+              <div class="text-overlay">
+                <h2>Uzbekistan</h2>
+                <div class="price">
+                  <b class="text-white">GET A PRICE</b>
+                </div>
+              </div>
+              <!-- 2 - Purchase -->
+              <div class="purchase-button-container purchase-button-container__block">
+                <h2 class="back-h2">More</h2>
+                <i class="fa-solid fa-person text-danger"></i>
+                <a href="#">
+                  <a href="./pages/Sec-service/service-ENG.html">
+                    <div class="purchase-button btn btn-danger">More</div>
+                  </a>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 - card-wrapper-->
+          <div class="card-wrapper">
+            <div class="card bg-tur light d-flex justify-content-center align-items-center">
+
+              <!-- 1 - text-overlay -->
+              <div class="text-overlay">
+                <h2 class="text-white fs-1">TURKEY</h2>
+                <div class="price">
+                  <b class="text-white">GET A PRICE</b>
+                </div>
+
+              </div>
+
+              <!-- 1 - Purchase -->
+              <div class="purchase-button-container purchase-button-container__block">
+                <h2 class="back-h2">More</h2>
+                <i class="fa-solid fa-person text-danger"></i>
+                <a href="#">
+                  <a href="https://t.me/Yangiyul_yurtur_admin">
+                    <div class="purchase-button btn btn-danger">More</div>
+                  </a>
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+          <!-- 3 - card-wrapper-->
+
+          <div class="card-wrapper">
+            <div class="card bg-kaba d-flex justify-content-center align-items-center">
+              <div class="text-overlay">
+                <h2 class="text-white">MECCA</h2>
+                <div class="price">
+                  <b class="text-white">GET A PRICE</b>
+                </div>
+
+              </div>
+
+              <!-- 3 - Purchase -->
+              <div class="purchase-button-container purchase-button-container__block">
+                <h2 class="back-h2">More</h2>
+                <i class="fa-solid fa-person text-danger"></i>
+                <a href="#">
+                  <a href="https://t.me/Yangiyul_yurtur_admin">
+                    <div class="purchase-button btn btn-danger">More</div>
+                  </a>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4 - card-wrapper-->
+          <div class="card-wrapper">
+            <div class="card bg-dub dark d-flex justify-content-center align-items-center">
+              <div class="text-overlay">
+                <h2>DUBAI</h2>
+                <div class="price">
+                  <b class="text-white">GET A PRICE</b>
+                </div>
+              </div>
+              <!-- 2 - Purchase -->
+              <div class="purchase-button-container purchase-button-container__block">
+                <h2 class="back-h2">More</h2>
+                <i class="fa-solid fa-person text-danger"></i>
+                <a href="#">
+                  <a href="https://t.me/Yangiyul_yurtur_admin">
+                    <div class="purchase-button btn btn-danger">More</div>
+                  </a>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===CARDS 2=== -->
+
+        <div class="card-container d-flex flex-lg-nowrap flex-wrap justify-content-evenly">
+          <!-- 1 - card-wrapper -->
+          <div class="card-wrapper mt-5">
+            <div class="card bg-egp dark d-flex justify-content-center align-items-center">
+              <div class="text-overlay">
+                <h2 class="egp-title">Египет</h2>
+                <div class="price">
+                  <b class="text-white">УЗНАТЬ ЦЕНУ</b>
+                </div>
+              </div>
+              <!-- 2 - Purchase -->
+              <div class="purchase-button-container purchase-button-container__block">
+                <h2 class="back-h2">Подробнее</h2>
+                <i class="fa-solid fa-person text-danger"></i>
+                <a href="#">
+                  <a href="./pages/travel/travel.html">
+                    <div class="purchase-button btn btn-danger">Подробнее</div>
+                  </a>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 - card-wrapper-->
+
+          <!-- <div class="card-wrapper">
+                    <div class="card bg-tur light d-flex justify-content-center align-items-center">
+        
+                      <div class="text-overlay">
+                        <h2 class="text-white fs-1">Турция</h2>
+                        <div class="price">
+                          <b class="text-white">УЗНАТЬ ЦЕНУ</b>
+                        </div>
+        
+                      </div>
+        
+                      <div class="purchase-button-container purchase-button-container__block">
+                        <h2 class="back-h2">Подробнее</h2>
+                        <i class="fa-solid fa-person text-danger"></i>
+                        <a href="#">
+                          <a href="https://t.me/Yangiyul_yurtur_admin">
+                            <div class="purchase-button btn btn-danger">Подробнее</div>
+                          </a>
+                        </a>
+                      </div>
+        
+                    </div>
+        
+                  </div> -->
+
+          <!-- 3 - card-wrapper-->
+
+          <!-- <div class="card-wrapper">
+                    <div class="card bg-kaba d-flex justify-content-center align-items-center">
+                      <div class="text-overlay">
+                        <h2 class="text-white">МЕККА</h2>
+                        <div class="price">
+                          <b class="text-white">УЗНАТЬ ЦЕНУ</b>
+                        </div>
+        
+                      </div>
+        
+                      <div class="purchase-button-container purchase-button-container__block">
+                        <h2 class="back-h2">Подробнее</h2>
+                        <i class="fa-solid fa-person text-danger"></i>
+                        <a href="#">
+                          <a href="https://t.me/Yangiyul_yurtur_admin">
+                            <div class="purchase-button btn btn-danger">Подробнее</div>
+                          </a>
+                        </a>
+                      </div>
+                    </div>
+                  </div> -->
+
+          <!-- 4 - card-wrapper-->
+          <!-- <div class="card-wrapper">
+                    <div class="card bg-dub dark d-flex justify-content-center align-items-center">
+                      <div class="text-overlay">
+                        <h2>ДУБАЙ</h2>
+                        <div class="price">
+                          <b class="text-white">УЗНАТЬ ЦЕНУ</b>
+                        </div>
+                      </div>
+        
+        
+                      <div class="purchase-button-container purchase-button-container__block">
+                        <h2 class="back-h2">Подробнее</h2>
+                        <i class="fa-solid fa-person text-danger"></i>
+                        <a href="#">
+                          <a href="https://t.me/Yangiyul_yurtur_admin">
+                            <div class="purchase-button btn btn-danger">Подробнее</div>
+                          </a>
+                        </a>
+                      </div>
+                    </div>
+                  </div> -->
+
+        </div>
+      </div>
+    </section>
+
+    <section class="about__us p-lg-0 p-2" id="about__us">
+      <div class="container d-lg-flex d-block">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <h1 class="text-white text-lg-start text-center">
+            TRAVEL WITH US!
+          </h1>
+          <div>
+            <h1 class="text-center text-white mt-lg-5 mt-2">
+              ABOUT US
+            </h1>
+            <p class="text-center text-white fs-4">
+              We are a team of like-minded people, we believe that travel
+              should be exciting, active and different. We
+              we organize hiking trips of varying difficulty for those who want
+              experience new experiences and share with us our passion for
+              passions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team mb-lg-5 ">
+      <div class="container">
+        <h1 class="mt-lg-5 mt-0 mb-lg-5 mb-0 text-center">
+          Team!
+        </h1>
+
+        <!-- ROW -->
+        <div class="row flex-lg-row flex-column justify-content-center align-items-center text-lg-start text-center">
+          <!-- COL-1 -->
+          <div class="col">
+            <div class="row justify-content-start">
+              <div class="col d-flex justify-content-end">
+                <i class="fa-solid fa-check fs-4 me-2"></i>
+                <h4 class="">We plan <span class="info__span">amazing routes</span></h4>
+              </div>
+            </div>
+          </div>
+          <!-- COL-2 -->
+          <div class="col">
+            <div class="row justify-content-start">
+              <div class="col d-flex justify-content-end">
+                <i class="fa-solid fa-check fs-4 me-2"></i>
+                <h4>
+                  You are in the hands <span class="info__span">of experienced travelers</span>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <!-- COL-3 -->
+          <div class="col">
+            <div class="row justify-content-start">
+              <div class="col d-flex justify-content-end">
+                <i class="fa-solid fa-check fs-4 me-2"></i>
+                <h4>
+                  Meet new <span class="info__span"> places and people</span>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <!-- COL-4 -->
+          <div class="col">
+            <div class="row justify-content-start">
+              <div class="col d-flex justify-content-end">
+                <i class="fa-solid fa-check fs-4 me-2"></i>
+                <h4>
+                  Tours for <span class="info__span">all difficulty levels</span>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- === -->
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="book">
+      <div class="container d-flex justify-content-center align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <h1 class="text-white">
+            Book a tour
+          </h1>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <p class="text-center text-white fs-4 mb-lg-5 mb-0 mt-lg-5 mt-0">
+              Good that you made up your mind! Register and we will contact you
+            </p>
+            <a href="tel: +998996488999"><button class="custom-btn btn-12 mb-3"><span>Click!</span><span>REGISTRATION
+                  Phone</span></button></a>
+            <a href="https://t.me/Yangiyul_yurtur_admin"><button
+                class="custom-btn btn-12"><span>Click!</span><span>Registration in telegram</span></button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="connect" id="connect">
+    <div class="container">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <h1 class="mt-5 text-white">
+          CONTACT US!
+        </h1>
+        <div>
+          <p><a href="tel: +998996488999" class="text-decoration-none text-white fw-bold fs-5">+998(99)
+              648-89-99</a></p>
+          <p><a href="tel: +998971060060" class="text-decoration-none text-white fw-bold fs-5">+998(97)
+              106-00-60</a></p>
+        </div>
+        <div class="mb-5 text-white">
+          <a href="https://www.instagram.com/yurtur_yangiyul/"><i class="fa-brands fa-instagram fs-3"></i></a>
+          <a href="https://t.me/yurtur_yangiyul"><i class="fa-brands fa-telegram fs-3 me-3 ms-3"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube fs-3"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="./script/splitting.min.js"></script>
+  <script> Splitting(); </script>
+  <script src="./script/FontAwesome.js"></script>
+  <script src="./script/jquery-3.6.1.min.js"></script>
+  <script src="./script/header.js"></script>
+  <script src="./script/script.js"></script>
+  <script src="./script/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
